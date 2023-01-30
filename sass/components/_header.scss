@@ -35,12 +35,6 @@
             }
         }
     }
-}
-
-.header__nav-item .header__nav-item--active {
-    color: var(--active-color);
-
-
     &__nav-item:hover {
         color: var(--active-color);
         transition: 250ms;
@@ -77,4 +71,9 @@
         margin-right: 10px;
         fill: #757575;
     }
+}
+
+.header__nav-item .header__nav-item--active {
+    color: var(--active-color);
+ 
 }
