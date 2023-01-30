@@ -4,24 +4,23 @@
     align-items: center;
     gap: 30px;
 
-}
-
-.customers__logo {
+&__logo {
     cursor: pointer;
     display: flex;
 }
 
-.customers--icon {
+&--icon {
 
     fill: #afb1b8;
     padding: 16px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-}
 
-.customers--icon:hover {
+    &:hover {
     fill: #2196F3;
     border-color: #2196f3;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
 }
