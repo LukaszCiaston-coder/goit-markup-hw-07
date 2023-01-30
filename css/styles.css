@@ -692,10 +692,9 @@ h2 {
 
 .modal__label>.modal__icon {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 15px;
 }
-
 
 .modal__input {
     width: 448px;
@@ -733,6 +732,7 @@ h2 {
     text-align: center;
     align-items: center;
     margin-top: 20px;
+    
 }
 
 .modal__checkbox--none {
@@ -757,6 +757,7 @@ h2 {
     height: 15px;
     border: 2px solid rgba(33, 33, 33, 1);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .modal__checkbox--none:checked+.modal__checkbox--text::before {
@@ -767,11 +768,12 @@ h2 {
     background-color: rgba(33, 150, 243, 1);
     border-radius: 2px;
     border: none;
+    cursor: pointer;
 }
 
 .modal__checkbox--blue {
-    color: rgba(33, 150, 243, 1);
     text-decoration: underline;
+    color: rgba(33, 150, 243, 1);
 }
 
 .modal__button {

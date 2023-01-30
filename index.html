@@ -389,7 +389,7 @@
                 </address>
             </div>
             <div class="footer__items">
-                <div class="footer__text">DOŁĄCZ DO NAS</div>
+                <span class="footer__text">DOŁĄCZ DO NAS</span>
                 <ul class="footer__media">
                     <li>
                         <a class="footer__icon footer__icon--white" href="#">
@@ -423,10 +423,10 @@
                 </ul>
             </div>
             <div class="footer__items">
-                <div class="footer__text">ZAPISZ SIĘ DO NEWSLETTERA</div>
+                <span class="footer__text">ZAPISZ SIĘ DO NEWSLETTERA</span>
                 <form class="footer__singup" name="signup_form" autocomplete="on" novalidate>
-                    <label>
-                        <input class="footer__singup-window footer__singup-window--color" type="email" name="email"
+                    <label for="singup">
+                        <input id="singup" class="footer__singup-window footer__singup-window--color" type="email" name="email"
                             placeholder="E-mail">
                     </label>
                     <button class="footer__email-button" type="submit">Zapisz się <svg class="footer__send" width="24"
@@ -444,23 +444,23 @@
             <button type="button" class="modal__close" data-modal-close>X</button>
             <p class="modal__text">Zostaw swoje dane w formularzu poniżej</p>
             <form name="signupform">
-                <label class="modal__label">Imie
-                    <input class="modal__input modal--focus" type="text" name="username">
+                <label for="name" class="modal__label">Imie
+                    <input id="name" class="modal__input modal--focus" type="text" name="username">
                     <svg class="modal__icon" width="16" height="16">
                         <use href="images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg>
 
                 </label>
 
-                <label class="modal__label">Telefon
-                    <input class="modal__input modal--focus" type="tel" name="phone_number">
+                <label for="tel" class="modal__label">Telefon
+                    <input id="tel" class="modal__input modal--focus" type="tel" name="phone_number">
                     <svg class="modal__icon" width="17" height="17">
                         <use href="images/icons.svg#icon-phone-black-18dp-1"></use>
                     </svg>
 
                 </label>
-                <label class="modal__label">Email
-                    <input class="modal__input modal--focus" type="email" name="email">
+                <label for="email" class="modal__label">Email
+                    <input id="email" class="modal__input modal--focus" type="email" name="email">
                     <svg class="modal__icon" width="19" height="16">
                         <use href="images/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
@@ -472,7 +472,7 @@
                 <div class="modal__checkbox">
                     <input id="check" class="modal__checkbox--none" type="checkbox" name="statementcheckbox">
                     <label for="check" class="modal__checkbox--text">Oświadczam iż akceptuje <a
-                            class="modal__chackbox--blue" href="#">Regulamin</a> i <a class="modal__chackbox--blue"
+                            class="modal__checkbox--blue" href="#">Regulamin</a> i <a class="modal__checkbox--blue"
                             href="#">Politykę Prywatności.</a>
                     </label>
                 </div>

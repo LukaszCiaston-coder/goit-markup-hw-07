@@ -106,8 +106,8 @@
         margin-top: 20px;
 
         &--blue {
-            color: rgba(33, 150, 243, 1);
             text-decoration: underline;
+            color: rgba(33, 150, 243, 1);
         }
 
         &--none {
@@ -121,6 +121,7 @@
                 background-color: rgba(33, 150, 243, 1);
                 border-radius: 2px;
                 border: none;
+                cursor: pointer;
             }
         }
     }
@@ -142,6 +143,7 @@
             height: 15px;
             border: 2px solid rgba(33, 33, 33, 1);
             border-radius: 4px;
+            cursor: pointer;
         }
     }
 
