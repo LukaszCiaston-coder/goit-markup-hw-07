@@ -3,28 +3,28 @@
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
-
+    
 }
 
-.logo--colorpart {
-    color: #2196f3;
-}
+    &--colorpart {
+        color: #2196f3;
+    }
 
-.logo__header:hover {
-    color: #2196F3;
-}
+    &__header {
+        color: #000000;
+        text-decoration: none;
+    
+        &:hover {
+            color: #2196F3;
+        }
+    }
+    &__footer {
+        color: #ffff;
+        text-decoration: none;
 
-.logo__header {
-    color: #000000;
-    text-decoration: none;
-}
-.logo__footer {
-    color: #ffff;
-    text-decoration: none;
-}
-
-.logo__footer:hover {
-    color: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+        &:hover {
+            color: #2196F3;
+            transition: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }

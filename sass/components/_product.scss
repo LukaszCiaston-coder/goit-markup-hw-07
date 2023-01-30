@@ -3,31 +3,29 @@
     justify-content: space-around;
 }
 
-.product__box {
-    position: relative;
-    margin: 0px;
+    &__box {
+        position: relative;
+        margin: 0px;
 
-}
+        &>.product__text {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 0;
+            width: 370px;
+            height: 70px;
+            background-color: rgba(47, 48, 58, 0.8);
+        }
+    }
 
-.product__box>.product__text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    width: 370px;
-    height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);
-
-}
-
-.product__text {
-    font-family: sans-serif;
-    text-align: center;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
+    &__text {
+        font-family: sans-serif;
+        text-align: center;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
