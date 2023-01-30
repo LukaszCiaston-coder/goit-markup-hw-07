@@ -15,10 +15,16 @@
         margin-right: 70px;
         width: 246px;
     }
-    
+
     &__items:nth-child(2) {
         margin-right: 78px;
+        margin-top: 12px;
     }
+
+    &__items:nth-child(3) {
+        margin-top: 12px;
+    }
+
     &__address {
         margin-top: 20px;
     }

@@ -416,6 +416,11 @@ h2 {
 
 .footer__items:nth-child(2) {
     margin-right: 78px;
+    margin-top: 12px;
+}
+
+.footer__items:nth-child(3) {
+    margin-top: 12px;
 }
 
 .logo__footer {
@@ -457,7 +462,6 @@ h2 {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
-    margin-top: 12px;
     color: #FFFFFF;
 }
 
