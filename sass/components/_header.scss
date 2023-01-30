@@ -4,7 +4,6 @@
     align-items: center;
     border-bottom: 1px solid #ececec;
     height: 80px;
-}
 
     &__nav-list {
         display: flex;
@@ -13,7 +12,6 @@
         line-height: 1.17;
         margin-left: 93px;
         margin-right: 345px;
-
     }
 
     &__nav-item {
@@ -37,10 +35,11 @@
             }
         }
     }
+}
 
 .header__nav-item .header__nav-item--active {
     color: var(--active-color);
-}
+
 
     &__nav-item:hover {
         color: var(--active-color);
@@ -78,3 +77,4 @@
         margin-right: 10px;
         fill: #757575;
     }
+}

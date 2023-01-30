@@ -34,7 +34,7 @@
     transition-duration: 1s;
     transform: translateX(-50%) translateY(-50%) scale(1);
     visibility: visible;
-}
+
 
     &__close {
         position: absolute;
@@ -171,3 +171,4 @@
             background-color: var(--active-color);
         }
     }
+}

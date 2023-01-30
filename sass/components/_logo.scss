@@ -4,8 +4,6 @@
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     
-}
-
     &--colorpart {
         color: var(--active-color);
     }
@@ -28,3 +26,4 @@
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
+}

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
 
     &__figure {
         cursor: pointer;
@@ -66,3 +65,4 @@
         line-height: 1.87;
         color: var(--primary-color);
     }
+}

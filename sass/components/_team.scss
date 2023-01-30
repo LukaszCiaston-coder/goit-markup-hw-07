@@ -1,7 +1,7 @@
 .team {
     display: flex;
     justify-items: center;
-}
+
     &--background {
         background-color:var(--grey-background-color);
     }
@@ -63,3 +63,4 @@
             }
         }
     }
+}
