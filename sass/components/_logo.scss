@@ -7,7 +7,7 @@
 }
 
     &--colorpart {
-        color: #2196f3;
+        color: var(--active-color);
     }
 
     &__header {
@@ -15,7 +15,7 @@
         text-decoration: none;
     
         &:hover {
-            color: #2196F3;
+            color: var(--active-color);
         }
     }
     &__footer {
@@ -23,7 +23,7 @@
         text-decoration: none;
 
         &:hover {
-            color: #2196F3;
+            color: var(--active-color);
             transition: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }

@@ -17,7 +17,7 @@
     }
 
     &__nav-item {
-        color: #212121;
+        color: var(--secondary-color);
         text-decoration: none;
         margin-right: 46px;
 
@@ -39,11 +39,11 @@
     }
 
 .header__nav-item .header__nav-item--active {
-    color: #2196F3
+    color: var(--active-color);
 }
 
     &__nav-item:hover {
-        color: #2196F3;
+        color: var(--active-color);
         transition: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -54,7 +54,7 @@
     }
 
     &__item {
-        color: #757575;
+        color: var(--primary-color);
         text-decoration: none;
         margin-right: 50px;
         font-size: 14px;
@@ -62,12 +62,12 @@
         line-height: 1.17;
     
         &:hover {
-            color: #2196F3;
+            color: var(--active-color);
             transition: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
             &>svg {
-                fill: #2196F3;
+                fill: var(--active-color);
                 transition: 250ms;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             }

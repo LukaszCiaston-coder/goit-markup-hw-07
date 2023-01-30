@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #757575;
+    font-family: var(--main-font-family);
+    color: var(--primary-color);
 }
 
 ul {
@@ -47,5 +47,5 @@ h2 {
     font-weight: 700;
     line-height: 1.17;
     text-align: center;
-    color: #212121;
+    color: var(--secondary-color);
 }
