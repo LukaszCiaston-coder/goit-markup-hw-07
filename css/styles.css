@@ -30,18 +30,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-.logo {
-    font-size: 26px;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.17;
-
-}
-
-.logo--colorpart {
-    color: #2196f3;
-}
-
 .container {
     width: 1200px;
     margin: auto;
@@ -54,7 +42,13 @@ h2 {
 .img-block {
     display: block;
 }
-
+.text--center {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
 /*---------------header----------------*/
 .header {
     display: flex;
@@ -64,7 +58,17 @@ h2 {
     height: 80px;
 }
 
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
 
+}
+
+.logo--colorpart {
+    color: #2196f3;
+}
 
 .logo__header:hover {
     color: #2196F3;
@@ -153,7 +157,7 @@ h2 {
 /*------------------Main-------------------*/
 
 /*---------------Main Title----------------*/
-.border-header {
+.main-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +170,7 @@ h2 {
     height: 600px;
 }
 
-.border-header__title {
+.main-title__title {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.5;
@@ -176,7 +180,7 @@ h2 {
 }
 
 
-.border-header__button {
+.main-title__button {
     display: flex;
     justify-content: center;
     background-color: #2196F3;
@@ -190,7 +194,7 @@ h2 {
 
 }
 
-.border-header__button--text {
+.main-title__button--text {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
@@ -203,9 +207,6 @@ h2 {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-}
-
-.section-strengths {
     padding-top: 92px;
     padding-bottom: 0px;
 }
@@ -245,14 +246,6 @@ h2 {
 }
 
 /*-------------About-us--------------*/
-
-.text--center {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-align: center;
-    color: #212121;
-}
 
 .product {
     display: flex;
@@ -331,7 +324,7 @@ h2 {
     color: #757575;
 }
 
-.team-media {
+.team__media {
     display: flex;
     justify-content: center;
     margin-top: 16px;
@@ -339,13 +332,13 @@ h2 {
 
 }
 
-.team-media__logo {
+.team__media-logo {
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-.team-media--icon {
+.team__media-icon {
     fill: #AFB1B8;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
@@ -354,7 +347,7 @@ h2 {
 }
 
 
-.team-media--icon:hover {
+.team__media-icon:hover {
     fill: #FFFFFF;
     background: #2196f3;
     transition: 250ms;
@@ -651,7 +644,7 @@ h2 {
 }
 
 .modal {
-    position: fixed;
+    position: absolute;
     display: block;
     padding: 40px;
     z-index: 1;
@@ -694,6 +687,7 @@ h2 {
 
 .modal__label {
     position: relative;
+    
 }
 
 .modal__label>.modal__icon {
@@ -702,32 +696,22 @@ h2 {
     left: 15px;
 }
 
-.modal__label input[type="text"] {
-    padding-left: 42px;
-}
-
-.modal__label input[type="tel"] {
-    padding-left: 42px;
-}
-
-.modal__label input[type="email"] {
-    padding-left: 42px;
-}
 
 .modal__input {
     width: 448px;
     height: 40px;
-    padding: 15px;
+    padding: 15px 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 10px;
+    margin-top: 4px;
 }
-
 
 .modal__help {
     width: 448px;
     height: 120px;
     padding: 12px 16px;
+    margin-top:  4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
